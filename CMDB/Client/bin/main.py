@@ -9,5 +9,5 @@ BASE_DIR = os.path.dirname(os.getcwd())
 sys.path.append(BASE_DIR)
 
 if __name__ == '__main__':
-    handler.ArgHandler(sys.argv)
+    handler.ArgvHandler(sys.argv)
 
